@@ -1,0 +1,17 @@
+﻿Nombre de la práctica: Operaciones numéricas (02).
+Descripción: En esta practica Conoceremos las opciones existentes en la consola para la entrada de datos y la conversión de
+cadenas de texto a objetos numéricos.
+
+- Método 'ReadLine'. Este método nos devuelve una cadena de texto captura una cadena de texto con la siguiente línea que el usuario introduzca en la consola.
+
+- Método 'Parse'. Este método, el cual está disponible en varias clases, nos devuelve un objeto convertido al tipo de la clase desde la que se está
+	invocando a partir de una cadena de texto suminstrada en su argumento de entrada.
+
+
+
+
+
+Referencias:
+	Método ReadLine (clase Console): https://docs.microsoft.com/es-es/dotnet/api/system.console.readline?view=netframework-4.8
+	Método Parse (clase double): https://docs.microsoft.com/es-es/dotnet/api/system.double.parse?view=netframework-4.8
+

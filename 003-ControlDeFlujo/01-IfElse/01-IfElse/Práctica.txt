@@ -1,0 +1,17 @@
+﻿Nombre de la práctica: Estructura de control 'if / else'.
+Descripción: En esta practica controlaremos el flujo de un programa haciendo uso
+	de la estructura de control 'if / else'.
+
+- if(condición){}. Si la condición indicada ente () se cumple, el programa ejecutará el
+	código que está entre {}.
+
+- else{}. Esta estructura siempre tiene que ir a continuación de una estructura 'if'.
+	se ejecutará el código que esté entre {} siempre que la condición indicada en la
+	estructura 'if' anterior no se cumple.
+
+- else if(condición){}. Esta estructura siempre tiene que ir a continuación de una
+	estructura 'if'. Se evaluará la condición indicada entre () siempre que la condición
+	indicada en la estructura 'if' anterior no se cumpla y si esta condición se cumple,
+	se ejecutará el código que esté	entre {}.
+
+Referencias: https://docs.microsoft.com/es-es/dotnet/csharp/language-reference/keywords/if-else

@@ -1,0 +1,17 @@
+﻿Nombre de la práctica: Estructura de control 'switch / case'.
+Descripción: En esta practica controlaremos el flujo de un programa haciendo uso
+	de la estructura de control 'switch / case'.
+
+- switch(condición){}. indicamos entre () la condición a evaluar.
+
+- case candidato:. a en caso de que la condicion indicada en el switch devuelva el valor del
+	candidato, se ejecutará el código que haya a continuación de :.
+
+- break;. Indica el final del código a ejecutar.
+
+- default. Se ejecutara el código que haya a continuacion de: siempre que no se haya cumplido
+	ninguna otra condicion dentro del 'switch / case'.
+
+- Es posible indicar dos o mas candidatos seguidos en caso de que el código a ejecutar sea el mismo.
+
+Referencias: https://docs.microsoft.com/es-es/dotnet/csharp/language-reference/keywords/switch

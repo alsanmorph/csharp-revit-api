@@ -1,0 +1,15 @@
+﻿zNombre de la práctica: SeleccionSimple.
+Descripción: En esta práctica haremos que el usuario pueda seleccionar un elemento en el modelo de revit.
+
+- Para poder trabajar con selecciones que haga el usuario, tenemos que tener una instancia de la clase 'Selection' disponible en nuestro código.
+	Este objeto, apuntará a la seleccion de la interface de usuario activa. para tener acceso directo a esta clase, es necesario añadir a las
+	directivas using, una referencia a 'Autodesk.Revit.UI.Selection'.
+
+- La selección manual, devuelve un objerto de la Clase 'Reference', esto es por que, dependiendo de lo que se esté haciendo, es posible llegar
+	a conseguir que el usuario pueda seleccionar una cara, una arista, o cualquier parte de un elemento.
+	para recuperar el objeto 'Element' a partir de 'Reference' haremos uso del método de la clase 'Document' 'GetElement', el cual, en una de
+	sus sobrecargas, nos permite pasarle un objeto de la clase referencia.
+
+Referencias:
+	Método 'GetElement': https://www.revitapidocs.com/2018/8760be74-50fd-6809-aec6-3cb168d03ea5.htm
+	Método 'PickObject': https://www.revitapidocs.com/2018/0315fd62-b533-1817-2f2d-d9ebd4bc8e33.htm

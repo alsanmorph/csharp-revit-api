@@ -1,0 +1,14 @@
+﻿zNombre de la práctica: ClasesConstructor.
+Descripción: En esta practica conoceremos los constructores paramétricos de las clases.
+
+- Una clase se puede instanciar por medio de su método constructor por defecto (sin parámetros de entrada), o por el contrario,
+	se puede definir un método constructor el cual puede ser utilizado para asignarle valores a sus propiedades en el momento de
+	ser creado.
+
+- Para crear una instancia de una clase con constructor paramétrico, se indica el tipo de objeto (nombre de la clase), se le asigna un nombre y se le asigna un valor
+	a través de la palabra reservada new seguido del nombre de la clase y sus parámetros de entrada entre().
+	En el caso de una clase que requiera dos número enteros para ser construida, ser:
+	Clase nombeDelObjetoDeLaClase = new Clase(primerNumeroEntero, segundoNumeroEntero);
+
+Referencias:
+	Constructores: https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/classes-and-structs/constructors

@@ -1,0 +1,13 @@
+﻿zNombre de la práctica: Clases.
+Descripción: En esta practica conoceremos las clases.
+
+- Una clase se define haciendo uso de la palabra reservada 'class' y de un nombre para la misma. La clase contendrá entre {},
+	entre otras cosas, propiedades y métodos.
+
+- Para crear una instancia de una clase, se indica el tipo de objeto (nombre de la clase), se le asigna un nombre y se le asigna un valor
+	a través de la palabra reservada new seguido del nombre de la clase y sus parámetros de entrada entre().
+	En el casi de una clase que no requiere ningún parametro de entrada para ser construida será:
+	Clase nombeDelObjetoDeLaClase = new Clase();
+
+Referencias:
+	Clases: https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/classes-and-structs/classes

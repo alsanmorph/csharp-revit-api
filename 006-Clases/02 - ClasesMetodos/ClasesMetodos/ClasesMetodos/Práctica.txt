@@ -1,0 +1,13 @@
+﻿Nombre de la práctica: ClasesMétodos.
+Descripción: En esta practica conoceremos los métodos de las clases.
+
+- Un método es un bloque de código que 'ejecuta' una instrucción, solicitaremos a una clase que ejecute esa instrucción, por medio de una llamada a ese método
+	(invocar el método).
+
+- Un método se define dentro de una clase, su sintaxis es: Un indicador de nivel de acceso (public o private)(opcional), un modificador (como abrtract o sealed)(opcional),
+	Su "firma"(el valor devuelto) o si el este no devuelve nada, 'void', el nombre del método y los parámetros del método entre().
+	El código a ejecutar por el método ira encapsulado entre {}
+	public void PintarHabitación("A brocha", "Blanco"){}
+
+Referencias:
+	Métodos: https://docs.microsoft.com/es-es/dotnet/csharp/methods

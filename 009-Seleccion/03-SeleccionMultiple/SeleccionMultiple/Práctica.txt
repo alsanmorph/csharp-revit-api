@@ -1,0 +1,8 @@
+﻿zNombre de la práctica: SeleccionMultiple.
+Descripción: En esta práctica haremos que el usuario pueda seleccionar varios elementos en el modelo de revit.
+
+- La selección múltiple, devuelve una colección del tipo 'IList<Reference>', para acceder a cada uno de los elementos correspondientes a cada referencia, es necesario
+	iterar por cada una de ellas.
+
+Referencias:
+	Método 'PickObjects': https://www.revitapidocs.com/2018/e5a547a2-3cf5-7638-2daa-ea85b4d3de2d.htm

@@ -1,0 +1,12 @@
+﻿zNombre de la práctica: AccesoAParametro.
+Descripción: En esta práctica accederemos a los parámetros tanto, parámetro de proyecto / familia, como parámetros de sistema.
+
+- Para acceder a un parámetro de sistema, siempre es recomendable acceder a su "BuiltinParameter" asociado. para ello, podemos
+	utilizar el método de la clase 'Element' 'Get_Parameter' y pasarle el BuiltinParameter que queremos recuperar.
+
+- Para acceder a cualquier parámetro del que solo sabemos su nombre, se utiliza el método 'LookupParameter' de la clase 'Element'
+	pasándole el nombre del parámetro a recuperar como una casdena de texto.
+
+Referencias:
+	Enumeración BuiltinParameter: https://www.revitapidocs.com/2018/fb011c91-be7e-f737-28c7-3f1e1917a0e0.htm
+	Método 'LookupParameter': https://www.revitapidocs.com/2018/4400b9f8-3787-0947-5113-2522ff5e5de2.htm

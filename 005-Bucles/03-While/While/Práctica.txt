@@ -1,0 +1,11 @@
+﻿Nombre de la práctica: Foreach.
+Descripción: En esta practica usaremos el bucle 'while' para ejecutar un bloque de código mientras se cumple
+	una condición.
+
+- La sintaxis del bucle consiste en la palabra reservada 'while' seguido de la declaración de una condición.
+	while(condiciónQueSeHaDeCumplir){} 
+	El código que se encuentre entre {} se ejecutará mientras se cunpla la condición.
+
+
+Referencias:
+	Foreach: https://docs.microsoft.com/es-es/dotnet/csharp/language-reference/keywords/while

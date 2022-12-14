@@ -1,0 +1,18 @@
+﻿Nombre de la práctica: Operaciones con cadenas.
+Descripción: En esta practica realizaremos operaciones básicas con cadenas de texto.
+
+- Operador '+'. Operador utilizado para concatenar dos cadenas de texto.
+
+- Método 'Count()'. Método que nos devuelve un objeto del tipo entero con el número de
+	caracteres que contiene una cadena de texto (incluido los espacios en blanco).
+
+- Método 'ToUpper()'. Método que nos devuelve una cadena de texto equivalente a la cadena
+	desde la que se invoca al método convertida a mayúsculas.
+
+- Método 'ToLower()'. Método que nos devuelve una cadena de texto equivalente a la cadena
+	desde la que se invoca al método convertida a minúsculas.
+
+- Método 'Replace(string oldValue, string newValue)'. Método que devuelve una cadena de texto
+	equivalente a la cadena desde la que se invoca el método, sustituyendo un texto por otro.
+	En este método se hace uso de los argumentos de entrada (cadena que indicamos que queremos
+	buscar y cadena por la que queremos reemplazarla).

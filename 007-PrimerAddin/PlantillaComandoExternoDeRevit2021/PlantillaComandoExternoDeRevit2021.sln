@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32526.322
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlantillaComandoExternoDeRevit2021", "PlantillaComandoExternoDeRevit2021\PlantillaComandoExternoDeRevit2021.csproj", "{DFFA36C0-129F-4ABB-9C87-C74572D509C0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DFFA36C0-129F-4ABB-9C87-C74572D509C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFFA36C0-129F-4ABB-9C87-C74572D509C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFFA36C0-129F-4ABB-9C87-C74572D509C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFFA36C0-129F-4ABB-9C87-C74572D509C0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E2FFEFCE-E2B8-47EF-9D85-D92346B86F7B}
+	EndGlobalSection
+EndGlobal

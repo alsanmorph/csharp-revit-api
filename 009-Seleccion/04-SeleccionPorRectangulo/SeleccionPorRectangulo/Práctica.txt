@@ -1,0 +1,8 @@
+﻿zNombre de la práctica: SeleccionPorRectangulo.
+Descripción: En esta práctica haremos que el usuario pueda seleccionar varios elementos en el modelo de revit por medio de un
+	rectángulo (captura o intersección).
+
+- La selección múltiple, al contrario que las dos vistas anteriormente, devuelve una colección del tipo 'IList<Element>', en este caso, tenemos acceso directamente a los elementos seleccionados.
+
+Referencias:
+	Método 'PickElementsByRectangle ': https://www.revitapidocs.com/2018/b486efdd-0c0d-589f-2dfd-b16d32dca046.htm

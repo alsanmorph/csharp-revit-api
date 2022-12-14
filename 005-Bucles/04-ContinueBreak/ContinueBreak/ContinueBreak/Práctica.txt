@@ -1,0 +1,10 @@
+﻿Nombre de la práctica: ContinueBreak.
+Descripción: En esta practica usaremos las instrucciones 'continue' y 'break' para interrumpir bucles en ejecución.
+
+- La instrucción 'continue' interrumple el la iteracón actual del bucle y continúa con la siguiente.
+- La instrucción 'breack' interrumple por completo el bucle en ejecución.
+
+
+Referencias:
+	continue: https://docs.microsoft.com/es-es/dotnet/csharp/language-reference/keywords/continue
+	break: https://docs.microsoft.com/es-es/dotnet/csharp/language-reference/keywords/break

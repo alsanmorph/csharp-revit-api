@@ -1,0 +1,7 @@
+﻿zNombre de la práctica: IteracionPorParametros.
+Descripción: En esta accederemos a la colección de parámetros de un elemento.
+
+- La clase 'Element', contiene entre sus propiedades, una del tipo ParameterSet (colección de parámetros) a la cual podemos acceder e iterar por todos sus elementos.
+
+Referencias:
+	Clase ParameterSet: https://www.revitapidocs.com/2018/6e6e8667-ebe2-0c60-c180-9d8000cff598.htm

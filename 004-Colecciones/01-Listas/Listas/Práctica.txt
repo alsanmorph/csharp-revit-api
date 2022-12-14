@@ -1,0 +1,39 @@
+﻿Nombre de la práctica: Listas.
+Descripción: En esta practica crearemos nuestras primeras collecciones de objetos (listas) y usaremos métodos
+	para añadir objetos a las mismas, combinar varias listas y acceder a los miembros de esta por su indice.
+	Para crear cadenas de texto combinadas, haremos uso de String.Format.
+
+- Creación de una lista vacía. En el momento de crear unanueva lista, debemos indicar que tipo de objetos va
+	a contener la misma, Una lista no puede contener objetos de diferentes tipos (por ejemplo, cadenas de texto
+	y números) Una lista, antes de ser utilizada, ha de ser inicializada. Para inicializar una nueva lista, es
+	necesario hacer uso de la palabra reservada 'new'.
+
+- Adición de elementos a una lista. Para añadir nuevos elementos a una lista, es necesario usar el método 'Add'
+	Y pasar al método como argumento el objeto a añadir.
+
+- Unión de dos listas. Para unir dos listas, es necesario usar el método 'AddRange' y pasar al método la lista
+	a añadir.
+
+- Para acceder a un miembro de una lista, indicaremos entre [] el número entero corespondiente al índice (número
+	que ocupa el elemento en la lista) del elemento buscado. Hay que tener en cuenta que los índices de una lista
+	empiezan por el 0.
+	Ejemplo con una lista de enteros:
+
+	ELEMENTO	|1	|2	|3	|4	|5	|6	|7	|8	|9	|10
+	ÍNDICE		|0	|1	|2	|3	|4	|5	|6	|7	|8	|9
+
+- Para dar formato a las cadenas de texto de una forma mas dinámica. intercalando texto y valores de variables,
+	podemos hacer uso de String.Format. A este método se le pasa, en su primer parámetro, una cadena de texto y
+	después una serie de objetos para insertar su valor en la cadena. La cedena de texto, en el lugar donde se
+	necesite insertar información relativa al valor de un objeto, un número entero empezando por el {0}. Después
+	de este primer argumento, se pasarán tantos argumentos como valores se hayan insertado en la cadena de texto.
+	Ejemplo:
+	String.Format("El valor de primerObjeto es: {0}, el valor de segundoObjeto es: {1} y el valor de tercerObjeto es: {2}.",
+	primerObjeto,
+	segundoObjeto,
+	tercerObjeto);
+
+
+Referencias:
+	Listas: https://docs.microsoft.com/es-es/dotnet/api/system.collections.generic.list-1?view=netframework-4.8
+	String format: https://docs.microsoft.com/es-es/dotnet/api/system.string.format?view=netframework-4.8#Starting

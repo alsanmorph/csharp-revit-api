@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.452
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccesoALinks", "AccesoALinks.csproj", "{EBD7806A-489C-44DE-9C0E-90A80446F4D5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EBD7806A-489C-44DE-9C0E-90A80446F4D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBD7806A-489C-44DE-9C0E-90A80446F4D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBD7806A-489C-44DE-9C0E-90A80446F4D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBD7806A-489C-44DE-9C0E-90A80446F4D5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7E115270-75D1-4239-891C-52CB1E4E66AB}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,8 @@
+REM -- Copia del archivo .addin a la carpeta de addins de usuario de Revit 2021 --
+copy "$(ProjectDir)Addin\*.addin" "%UserProfile%\AppData\Roaming\Autodesk\Revit\Addins\2021"
+
+REM -- Creación de la carpeta con el nombre del comando externo que contendra los archivos dll del mismo --
+if not exist "%UserProfile%\AppData\Roaming\Autodesk\Revit\Addins\2018\$(SolutionName)" mkdir "%UserProfile%\AppData\Roaming\Autodesk\Revit\Addins\2018\$(SolutionName)"
+
+REM -- Copia de los archivos .dll a la carpeta del comando externo recientemente creada --
+copy "$(ProjectDir)bin\Debug\*.dll" "%UserProfile%\AppData\Roaming\Autodesk\Revit\Addins\2021\$(SolutionName)"

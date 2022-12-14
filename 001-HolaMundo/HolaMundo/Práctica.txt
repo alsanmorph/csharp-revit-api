@@ -1,0 +1,34 @@
+﻿Nombre de la práctica: Hola Mundo.
+Descripción: En esta practica escribiremos el primer prgrama del tipo aplicación de consola.
+	Conoceremos los fragmentos de código que componen un archivo .cs
+
+- Directivas using. Indican al código del archivo en el que nos encontramos (en nuestro caso,
+	Program.cs), los espacios de nombres a los que tiene acceso.
+
+- Espacio de nombres (namespace). se utiliza para agrupar objetos relacionados entre si dentro de un programa.
+	Por intentar hacer una comparación sencilla, podemos decir, que un espacio de nombres puede ser equivalente
+	a un directorio, llamado 'Planos vivienda unifamiliar' el cual, se encarga de mantener agrupados varios
+	archivos pdf de planos referentes a un proyecto de una vivienda unifamiliar.
+
+-Clase (class). Estructura de datos que representa un objeto, la cual, entre otras cosas contiene propiedades
+	de dicho objeto.
+	Siguiendo nuestro símil del proyecto de la vivienda unifamiliar, podríamos poner como ejemplo una clase que
+	se llamase “Vivienda”, la cual tuviera las propiedades “Dirección”, “Número de instancias”, “Superficie útil”,
+	“Superficie construida”…
+
+-Método. Dentro de las clases, entre otras muchas cosas, podemos encontrar métodos. Los métodos son “comandos” a
+	los cuales podemos recurrir (invocar) para que una clase haga una operación concreta.
+	Un método en nuestra clase imaginaria “Vivienda” podría ser “Dame el número de dormitorios”. Este método,
+	recorrería todas las instancias de la vivienda y contaría el número de instancias cuyo tipo fuera “Dormitorio”.
+	Este método nos diría: “La vivienda tiene 4 dormitorios”.
+
+
+
+
+Referencias:
+	Using: https://docs.microsoft.com/es-es/dotnet/csharp/language-reference/keywords/using-directive
+	Espacio de nombres: https://docs.microsoft.com/es-es/dotnet/csharp/language-reference/keywords/namespace
+	Clase: https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/classes-and-structs/
+	Método: https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/classes-and-structs/methods
+
+

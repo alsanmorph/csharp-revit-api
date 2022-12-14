@@ -1,0 +1,10 @@
+﻿zNombre de la práctica: LecturaDeElemento.
+Descripción: En esta práctica realizaremos la consulta de un elemento del modelo a través de su Id.
+
+- La clase ElementId, representa el Id de un elemento en el modelo, para la creación de una instancia de esta clase pasaremos al método
+	constructor de la misma un entero con el id del elemento.
+
+- Para acceder al elemento, haremos uso del método GetElement de la clase Document, al cual le pasaremos un objeto de la clase ElementId.
+
+Referencias:
+	Método 'GetElement': https://www.revitapidocs.com/2018/8760be74-50fd-6809-aec6-3cb168d03ea5.htm

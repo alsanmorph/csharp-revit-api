@@ -1,0 +1,20 @@
+﻿Nombre de la práctica: Diccionarios.
+	Descripción: En esta prácitica conoceremos la colección del tipo diccionario. Esta colección esta compuesta
+	por pares de datos, llamados clave y valor. Un diccionario, en líneas generales se comorta de una forma
+	similar a las listas, pero tenemos que tener en cuenta que no puede contener dos elements con el mismo valor
+	en su clave.
+
+- Creación de un diccionario vacío. En el momento de crear un nuevo diccionario, debemos indicar, al igual que
+	con las listas, los tipos de objetos que va a contener. También como en el caso de las listas, un diccionario
+	ha de ser inicializao antes de usarlo con la palabra reservada 'new'.
+
+- Adición de elementos a un dicionario. Para añadir nuevos elementos a un diccionario, es necesario usar el método 'Add'
+	Y pasar al método como argumento el par de objetos a añadir.
+
+- Para acceder a un miembro de un diccionario, declararemos una variable del tipo par clave-valor y usaremos el método
+	ElementAt, al cual le pasaremos el entero correspondiente al índice que queremos obtener.
+
+- Para acceder a un valor de una clave, basta con 'llamarlo' introduciendo el valor de su clave entre [].
+
+Referencias:
+	Diccionario: https://docs.microsoft.com/es-es/dotnet/api/system.collections.generic.dictionary-2?view=netframework-4.8

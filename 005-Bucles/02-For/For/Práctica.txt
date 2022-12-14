@@ -1,0 +1,15 @@
+﻿Nombre de la práctica: For.
+Descripción: En esta practica usaremos el bucle 'for' para recorrer elementos de una lista.
+
+- La sintaxis del bucle consiste en la palabra reservada 'for' seguido de tres líneas de código entre ():
+	1. Declariación de una variable local numérica (típicamente un entero).
+	2. Una condición que determinará si se ha de seguir ejecutando el bucle.
+	3. El nuevo valor que tendrá la variable local después de ejecutar el bucle.
+	for(numeroentero = 1;
+	    numeroEntero < 10;
+		numeroEntero = numeroEntero + 1){}
+	El código que se encuentre entre {} se ejecutará cada vez que se ejecute el bucle.
+
+
+Referencias:
+	Foreach: https://docs.microsoft.com/es-es/dotnet/csharp/language-reference/keywords/for
