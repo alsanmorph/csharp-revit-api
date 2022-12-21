@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?> 
+<!-- Primer nivle para encapsular todos los addins que contiene el archivo. -->
+<RevitAddIns>
+
+	<!-- Segundo nivel para encapsular un addin. es necesario indicar el tipo de addin. -->
+	<AddIn Type="Command"> 
+	
+		<!-- Línea donde se indica la ruta relativa donde se encuentra el archivo .dll del addin. -->
+ 		<Assembly>DibujarMuro\DibujarMuro.dll</Assembly>
+		
+		<!-- Línea donde se indica el identificador único del addin. -->
+  		<AddInId>FDFB4FA9-01AD-4A4F-BEC2-DB8D94651360</AddInId> 
+		
+		<!-- Línea donde se indica la ruta dentro de la solución donde se encuetra el método 'Execute' del addin. -->
+  		<FullClassName>DibujarMuro.Class1</FullClassName> 
+		
+		<!-- Línea donde se indica el nombre visible del addin. -->
+  		<Text>Dibujar muro</Text>  
+		
+		<!-- Línea donde se indica el identificador único del creador del addin. -->
+  		<VendorId>BUTIC</VendorId> 
+		
+		<!-- Línea donde se indica la descripción del creador del addin. -->
+  		<VendorDescription>Butic. The new School</VendorDescription>  
+ 		</AddIn> 
+</RevitAddIns>

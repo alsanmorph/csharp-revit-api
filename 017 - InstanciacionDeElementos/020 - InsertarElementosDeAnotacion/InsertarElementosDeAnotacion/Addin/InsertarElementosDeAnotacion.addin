@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?> 
+<!-- Primer nivle para encapsular todos los addins que contiene el archivo. -->
+<RevitAddIns>
+
+	<!-- Segundo nivel para encapsular un addin. es necesario indicar el tipo de addin. -->
+	<AddIn Type="Command"> 
+	
+		<!-- Línea donde se indica la ruta relativa donde se encuentra el archivo .dll del addin. -->
+ 		<Assembly>InsertarElementosDeAnotacion\InsertarElementosDeAnotacion.dll</Assembly>
+		
+		<!-- Línea donde se indica el identificador único del addin. -->
+  		<AddInId>D17ED3F3-2476-4887-A9AB-79D165B11A6B</AddInId> 
+		
+		<!-- Línea donde se indica la ruta dentro de la solución donde se encuetra el método 'Execute' del addin. -->
+  		<FullClassName>InsertarElementosDeAnotacion.Class1</FullClassName> 
+		
+		<!-- Línea donde se indica el nombre visible del addin. -->
+  		<Text>Insertar elementos de anotación</Text>  
+		
+		<!-- Línea donde se indica el identificador único del creador del addin. -->
+  		<VendorId>BUTIC</VendorId> 
+		
+		<!-- Línea donde se indica la descripción del creador del addin. -->
+  		<VendorDescription>Butic. The new School</VendorDescription>  
+ 		</AddIn> 
+</RevitAddIns>

@@ -1,0 +1,30 @@
+4009;Silla-Corbu;
+4283;Silla-Corbu;Room 6
+4291;Silla-Corbu;Room 2
+4306;Silla-Corbu;Room 8
+4307;Silla-Corbu;Room 5
+4308;Silla-Corbu;Room 4
+4316;Silla-Corbu;Room 11
+4317;Silla-Corbu;Room 9
+4318;Silla-Corbu;Room 4
+4326;Silla-Corbu;
+4327;Silla-Corbu;Room 10
+4328;Silla-Corbu;
+4353;Silla-Corbu;Room 6
+4354;Silla-Corbu;Room 6
+4355;Silla-Corbu;Room 2
+4363;Silla-Corbu;Room 7
+4364;Silla-Corbu;Room 5
+4365;Silla-Corbu;
+4395;Silla-Corbu;Room 8
+4396;Silla-Corbu;Room 8
+4397;Silla-Corbu;Room 4
+4411;Silla-Corbu;
+4412;Silla-Corbu;Room 10
+4413;Silla-Corbu;Room 9
+4427;Silla-Corbu;
+4428;Silla-Corbu;Room 10
+4429;Silla-Corbu;
+4437;Silla-Corbu;
+4438;Silla-Corbu;
+4439;Silla-Corbu;
